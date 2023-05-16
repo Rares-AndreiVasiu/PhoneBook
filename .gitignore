@@ -1,0 +1,4 @@
+#Files from output which need to be ignored
+*.out
+*.in
+*.json
