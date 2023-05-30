@@ -1,4 +1,5 @@
 #Files from output which need to be ignored
+*.x
 *.out
 *.in
 *.json
