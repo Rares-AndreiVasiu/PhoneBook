@@ -1,3 +1,4 @@
+#include <string>
 #include "Address.h"
 
 // address related functions
