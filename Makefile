@@ -1,39 +1,48 @@
-# Compiler and flags
-CC := g++
-CFLAGS := -std=c++11 -Wall
+# CC = g++
+# CFLAGS = -Wall
 
-# Directories
-SRC_DIR := src
-INCLUDE_DIR := include
-OBJ_DIR := obj
-BIN_DIR := bin
+# CPP_SRC_FILES = $(wildcard src/*.cpp)
 
-# Source files
-SRCS := $(wildcard $(SRC_DIR)/**/*.cpp)
-OBJS := $(patsubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(SRCS))
-TARGET := $(BIN_DIR)/register.x
+# HEADER_FILES=$(wildcard include/*.h)
 
-# Rule to compile .cpp files into object files
-$(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
-	$(CC) $(CFLAGS) -I $(INCLUDE_DIR) -c $< -o $@
+# OBJ_FILES=$(patsubst src/%.cpp,obj/%.o,$(CPP_SRC_FILES))
 
-# Rule to link object files into the executable
-$(TARGET): $(OBJS)
-	$(CC) $(OBJS) -o $@
+# TARGET = register.x
 
-# Rule to create the object and binary directories
-$(shell mkdir -p $(OBJ_DIR) $(BIN_DIR))
+# all: create_dir $(CPP_SRC_FILES) $(HEADER_FILES) $(OBJ_FILES)
+# 	$(CC) $(OBJ_FILES) -o $(TARGET)
 
-# Default rule
+# obj/%.o: src/%.cpp
+# 	$(CC) $(CFLAGS) -I ./include -c $^ -o $@
+
+# create_dir:
+# 	mkdir -p obj
+
+# clear:
+# 	rm -f *.x
+# 	rm -f -r obj/
+
+CC = g++
+CFLAGS = -Wall
+
+CPP_SRC_FILES = $(wildcard src/*.cpp)
+HEADER_FILES = $(wildcard include/*.h)
+OBJ_FILES = $(patsubst src/%.cpp,obj/%.o,$(CPP_SRC_FILES))
+
+TARGET = register.x
+
 all: create_dir $(TARGET)
 
-# Rule to create the object directory
+$(TARGET): $(OBJ_FILES)
+	$(CC) $(OBJ_FILES) -o $(TARGET)
+
+obj/%.o: src/%.cpp
+	$(CC) $(CFLAGS) -I ./include -c $^ -o $@
+
 create_dir:
-	mkdir -p $(OBJ_DIR)
+	mkdir -p obj
 
-# Clean rule
-clean:
-	rm -f $(TARGET)
-	rm -rf $(OBJ_DIR)
+clear:
+	rm -f *.x
+	rm -f -r obj/
 
-.PHONY: all clean create_dir
