@@ -2,6 +2,56 @@
 #include <string>
 
 
+void Menu()
+{
+    puts("=== Phone Book simulator ===");
+
+    puts("Add a contact: press 1");
+
+    puts("Update a contact: press 2");
+
+    puts("Delete a contact: press 3");
+
+    puts("Search for contact: press 4");
+
+    puts("Exit programm: press 5");
+}
+
+void SearchContact()
+{
+    puts("Search by last name: press 1");
+
+    puts("Search by first name: press 2");
+
+    puts("Search by mobile phone number: press 3");
+
+    puts("Search by landline number: press 4");
+
+    puts("Search by address: press 5");
+}
+
+void UpdateContact()
+{
+    puts("Update first name: press 1");
+
+    puts("Update last name: press 2");
+
+    puts("Update mobile phone number: press 3");
+
+    puts("Update landline number: press 4");
+
+    puts("Update address: press 5");
+}
+
+void DeleteContact()
+{
+    puts("Choose between the mobile phone number or the landline number");
+
+    puts("Mobile phone number: press 1");
+
+    puts("Landline number: press 2");
+}
+
 int main()
 {
     Phone *phoneObj = new Phone("1234567890", "9876543210");
