@@ -1,3 +1,4 @@
+#include <string>
 #include "Phone.h"
 
 std::string Phone::getMobileNumber() const
