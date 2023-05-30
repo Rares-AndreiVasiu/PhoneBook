@@ -1,6 +1,6 @@
+#include <string>
 #include "Person.h"
 
-#pragma region Person
 std::string Person::getFirstName() const
 {
     return firstName;
@@ -25,5 +25,3 @@ Address *Person::getAddress() const
 {
     return address;
 }
-
-#pragma endregion Person
