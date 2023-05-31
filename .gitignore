@@ -1,4 +1,5 @@
 #Files from output which need to be ignored
+*.7z
 *.x
 *.out
 *.in
