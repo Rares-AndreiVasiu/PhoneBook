@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/register.x.dir/Address.o CMakeFiles/register.x.dir/main.o CMakeFiles/register.x.dir/Person.o CMakeFiles/register.x.dir/PhoneBook.o CMakeFiles/register.x.dir/Phone.o -o register.x 

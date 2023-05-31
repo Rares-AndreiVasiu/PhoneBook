@@ -1,0 +1,5 @@
+/mnt/c/Users/rares/GitHub/PhoneBook/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/rares/GitHub/PhoneBook/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/rares/GitHub/PhoneBook/build/src/CMakeFiles/register.x.dir
+/mnt/c/Users/rares/GitHub/PhoneBook/build/src/CMakeFiles/edit_cache.dir
+/mnt/c/Users/rares/GitHub/PhoneBook/build/src/CMakeFiles/rebuild_cache.dir
