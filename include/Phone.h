@@ -13,6 +13,10 @@ public:
 
     }
 
+    void setMobileNumber(std::string mobile);
+
+    void setLandLineNumber(std::string landline);
+
     std::string getMobileNumber() const;
 
     std::string getLandlineNumber() const;
