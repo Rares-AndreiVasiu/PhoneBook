@@ -13,7 +13,7 @@ private:
 public:
     PhoneBook(int ct, Person* p): index(ct), person(p)
     {
-
+        totalContacts += ct;
     }
 
     int getIndex()
