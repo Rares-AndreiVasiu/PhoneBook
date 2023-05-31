@@ -146,6 +146,21 @@ Address.s:
 .PHONY : Address.s
 
 # target to build an object file
+Menu.o:
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/register.x.dir/build.make src/CMakeFiles/register.x.dir/Menu.o
+.PHONY : Menu.o
+
+# target to preprocess a source file
+Menu.i:
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/register.x.dir/build.make src/CMakeFiles/register.x.dir/Menu.i
+.PHONY : Menu.i
+
+# target to generate assembly for a file
+Menu.s:
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/register.x.dir/build.make src/CMakeFiles/register.x.dir/Menu.s
+.PHONY : Menu.s
+
+# target to build an object file
 Person.o:
 	cd /mnt/c/Users/rares/GitHub/PhoneBook/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/register.x.dir/build.make src/CMakeFiles/register.x.dir/Person.o
 .PHONY : Person.o
@@ -191,6 +206,36 @@ PhoneBook.s:
 .PHONY : PhoneBook.s
 
 # target to build an object file
+handler.o:
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/register.x.dir/build.make src/CMakeFiles/register.x.dir/handler.o
+.PHONY : handler.o
+
+# target to preprocess a source file
+handler.i:
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/register.x.dir/build.make src/CMakeFiles/register.x.dir/handler.i
+.PHONY : handler.i
+
+# target to generate assembly for a file
+handler.s:
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/register.x.dir/build.make src/CMakeFiles/register.x.dir/handler.s
+.PHONY : handler.s
+
+# target to build an object file
+linkedList.o:
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/register.x.dir/build.make src/CMakeFiles/register.x.dir/linkedList.o
+.PHONY : linkedList.o
+
+# target to preprocess a source file
+linkedList.i:
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/register.x.dir/build.make src/CMakeFiles/register.x.dir/linkedList.i
+.PHONY : linkedList.i
+
+# target to generate assembly for a file
+linkedList.s:
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/register.x.dir/build.make src/CMakeFiles/register.x.dir/linkedList.s
+.PHONY : linkedList.s
+
+# target to build an object file
 main.o:
 	cd /mnt/c/Users/rares/GitHub/PhoneBook/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/register.x.dir/build.make src/CMakeFiles/register.x.dir/main.o
 .PHONY : main.o
@@ -205,6 +250,21 @@ main.s:
 	cd /mnt/c/Users/rares/GitHub/PhoneBook/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/register.x.dir/build.make src/CMakeFiles/register.x.dir/main.s
 .PHONY : main.s
 
+# target to build an object file
+utils.o:
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/register.x.dir/build.make src/CMakeFiles/register.x.dir/utils.o
+.PHONY : utils.o
+
+# target to preprocess a source file
+utils.i:
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/register.x.dir/build.make src/CMakeFiles/register.x.dir/utils.i
+.PHONY : utils.i
+
+# target to generate assembly for a file
+utils.s:
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/register.x.dir/build.make src/CMakeFiles/register.x.dir/utils.s
+.PHONY : utils.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -217,6 +277,9 @@ help:
 	@echo "... Address.o"
 	@echo "... Address.i"
 	@echo "... Address.s"
+	@echo "... Menu.o"
+	@echo "... Menu.i"
+	@echo "... Menu.s"
 	@echo "... Person.o"
 	@echo "... Person.i"
 	@echo "... Person.s"
@@ -226,9 +289,18 @@ help:
 	@echo "... PhoneBook.o"
 	@echo "... PhoneBook.i"
 	@echo "... PhoneBook.s"
+	@echo "... handler.o"
+	@echo "... handler.i"
+	@echo "... handler.s"
+	@echo "... linkedList.o"
+	@echo "... linkedList.i"
+	@echo "... linkedList.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... utils.o"
+	@echo "... utils.i"
+	@echo "... utils.s"
 .PHONY : help
 
 

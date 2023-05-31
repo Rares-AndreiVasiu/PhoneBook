@@ -1,6 +1,7 @@
-src/CMakeFiles/register.x.dir/main.o: \
- /mnt/c/Users/rares/GitHub/PhoneBook/src/main.cpp \
+src/CMakeFiles/register.x.dir/Menu.o: \
+ /mnt/c/Users/rares/GitHub/PhoneBook/src/Menu.cpp \
  /usr/include/stdc-predef.h \
+ /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/Menu.h \
  /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/utils.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -213,10 +214,4 @@ src/CMakeFiles/register.x.dir/main.o: \
  /usr/include/c++/11/bits/regex_compiler.tcc \
  /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
  /usr/include/c++/11/bits/regex_executor.h \
- /usr/include/c++/11/bits/regex_executor.tcc \
- /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/Address.h \
- /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/Menu.h \
- /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/Person.h \
- /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/Phone.h \
- /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/PhoneBook.h \
- /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/handler.h
+ /usr/include/c++/11/bits/regex_executor.tcc

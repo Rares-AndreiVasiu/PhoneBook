@@ -139,13 +139,73 @@ src/CMakeFiles/register.x.dir/Phone.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/register.x.dir/Phone.s"
 	cd /mnt/c/Users/rares/GitHub/PhoneBook/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/rares/GitHub/PhoneBook/src/Phone.cpp -o CMakeFiles/register.x.dir/Phone.s
 
+src/CMakeFiles/register.x.dir/Menu.o: src/CMakeFiles/register.x.dir/flags.make
+src/CMakeFiles/register.x.dir/Menu.o: ../src/Menu.cpp
+src/CMakeFiles/register.x.dir/Menu.o: src/CMakeFiles/register.x.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/rares/GitHub/PhoneBook/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/register.x.dir/Menu.o"
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/register.x.dir/Menu.o -MF CMakeFiles/register.x.dir/Menu.o.d -o CMakeFiles/register.x.dir/Menu.o -c /mnt/c/Users/rares/GitHub/PhoneBook/src/Menu.cpp
+
+src/CMakeFiles/register.x.dir/Menu.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/register.x.dir/Menu.i"
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/rares/GitHub/PhoneBook/src/Menu.cpp > CMakeFiles/register.x.dir/Menu.i
+
+src/CMakeFiles/register.x.dir/Menu.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/register.x.dir/Menu.s"
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/rares/GitHub/PhoneBook/src/Menu.cpp -o CMakeFiles/register.x.dir/Menu.s
+
+src/CMakeFiles/register.x.dir/utils.o: src/CMakeFiles/register.x.dir/flags.make
+src/CMakeFiles/register.x.dir/utils.o: ../src/utils.cpp
+src/CMakeFiles/register.x.dir/utils.o: src/CMakeFiles/register.x.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/rares/GitHub/PhoneBook/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/register.x.dir/utils.o"
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/register.x.dir/utils.o -MF CMakeFiles/register.x.dir/utils.o.d -o CMakeFiles/register.x.dir/utils.o -c /mnt/c/Users/rares/GitHub/PhoneBook/src/utils.cpp
+
+src/CMakeFiles/register.x.dir/utils.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/register.x.dir/utils.i"
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/rares/GitHub/PhoneBook/src/utils.cpp > CMakeFiles/register.x.dir/utils.i
+
+src/CMakeFiles/register.x.dir/utils.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/register.x.dir/utils.s"
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/rares/GitHub/PhoneBook/src/utils.cpp -o CMakeFiles/register.x.dir/utils.s
+
+src/CMakeFiles/register.x.dir/handler.o: src/CMakeFiles/register.x.dir/flags.make
+src/CMakeFiles/register.x.dir/handler.o: ../src/handler.cpp
+src/CMakeFiles/register.x.dir/handler.o: src/CMakeFiles/register.x.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/rares/GitHub/PhoneBook/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/register.x.dir/handler.o"
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/register.x.dir/handler.o -MF CMakeFiles/register.x.dir/handler.o.d -o CMakeFiles/register.x.dir/handler.o -c /mnt/c/Users/rares/GitHub/PhoneBook/src/handler.cpp
+
+src/CMakeFiles/register.x.dir/handler.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/register.x.dir/handler.i"
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/rares/GitHub/PhoneBook/src/handler.cpp > CMakeFiles/register.x.dir/handler.i
+
+src/CMakeFiles/register.x.dir/handler.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/register.x.dir/handler.s"
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/rares/GitHub/PhoneBook/src/handler.cpp -o CMakeFiles/register.x.dir/handler.s
+
+src/CMakeFiles/register.x.dir/linkedList.o: src/CMakeFiles/register.x.dir/flags.make
+src/CMakeFiles/register.x.dir/linkedList.o: ../src/linkedList.cpp
+src/CMakeFiles/register.x.dir/linkedList.o: src/CMakeFiles/register.x.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/rares/GitHub/PhoneBook/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/register.x.dir/linkedList.o"
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/register.x.dir/linkedList.o -MF CMakeFiles/register.x.dir/linkedList.o.d -o CMakeFiles/register.x.dir/linkedList.o -c /mnt/c/Users/rares/GitHub/PhoneBook/src/linkedList.cpp
+
+src/CMakeFiles/register.x.dir/linkedList.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/register.x.dir/linkedList.i"
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/rares/GitHub/PhoneBook/src/linkedList.cpp > CMakeFiles/register.x.dir/linkedList.i
+
+src/CMakeFiles/register.x.dir/linkedList.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/register.x.dir/linkedList.s"
+	cd /mnt/c/Users/rares/GitHub/PhoneBook/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/rares/GitHub/PhoneBook/src/linkedList.cpp -o CMakeFiles/register.x.dir/linkedList.s
+
 # Object files for target register.x
 register_x_OBJECTS = \
 "CMakeFiles/register.x.dir/Address.o" \
 "CMakeFiles/register.x.dir/main.o" \
 "CMakeFiles/register.x.dir/Person.o" \
 "CMakeFiles/register.x.dir/PhoneBook.o" \
-"CMakeFiles/register.x.dir/Phone.o"
+"CMakeFiles/register.x.dir/Phone.o" \
+"CMakeFiles/register.x.dir/Menu.o" \
+"CMakeFiles/register.x.dir/utils.o" \
+"CMakeFiles/register.x.dir/handler.o" \
+"CMakeFiles/register.x.dir/linkedList.o"
 
 # External object files for target register.x
 register_x_EXTERNAL_OBJECTS =
@@ -155,9 +215,13 @@ src/register.x: src/CMakeFiles/register.x.dir/main.o
 src/register.x: src/CMakeFiles/register.x.dir/Person.o
 src/register.x: src/CMakeFiles/register.x.dir/PhoneBook.o
 src/register.x: src/CMakeFiles/register.x.dir/Phone.o
+src/register.x: src/CMakeFiles/register.x.dir/Menu.o
+src/register.x: src/CMakeFiles/register.x.dir/utils.o
+src/register.x: src/CMakeFiles/register.x.dir/handler.o
+src/register.x: src/CMakeFiles/register.x.dir/linkedList.o
 src/register.x: src/CMakeFiles/register.x.dir/build.make
 src/register.x: src/CMakeFiles/register.x.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/rares/GitHub/PhoneBook/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable register.x"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/rares/GitHub/PhoneBook/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable register.x"
 	cd /mnt/c/Users/rares/GitHub/PhoneBook/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/register.x.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

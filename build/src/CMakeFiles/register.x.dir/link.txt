@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/register.x.dir/Address.o CMakeFiles/register.x.dir/main.o CMakeFiles/register.x.dir/Person.o CMakeFiles/register.x.dir/PhoneBook.o CMakeFiles/register.x.dir/Phone.o -o register.x 
+/usr/bin/c++ -rdynamic CMakeFiles/register.x.dir/Address.o CMakeFiles/register.x.dir/main.o CMakeFiles/register.x.dir/Person.o CMakeFiles/register.x.dir/PhoneBook.o CMakeFiles/register.x.dir/Phone.o CMakeFiles/register.x.dir/Menu.o CMakeFiles/register.x.dir/utils.o CMakeFiles/register.x.dir/handler.o CMakeFiles/register.x.dir/linkedList.o -o register.x 

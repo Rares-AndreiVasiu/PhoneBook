@@ -1,8 +1,6 @@
-src/CMakeFiles/register.x.dir/main.o: \
- /mnt/c/Users/rares/GitHub/PhoneBook/src/main.cpp \
- /usr/include/stdc-predef.h \
- /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/utils.h \
- /usr/include/c++/11/iostream \
+src/CMakeFiles/register.x.dir/handler.o: \
+ /mnt/c/Users/rares/GitHub/PhoneBook/src/handler.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -147,17 +145,24 @@ src/CMakeFiles/register.x.dir/main.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/thread \
- /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/tuple \
- /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
- /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
+ /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/limits \
+ /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/handler.h \
+ /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/PhoneBook.h \
+ /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/Person.h \
+ /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/Address.h \
+ /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/Phone.h \
+ /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/Menu.h \
+ /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/utils.h \
+ /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
+ /usr/include/c++/11/tuple /usr/include/c++/11/utility \
+ /usr/include/c++/11/bits/stl_relops.h /usr/include/c++/11/array \
+ /usr/include/c++/11/bits/uses_allocator.h \
  /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/bits/refwrap.h \
  /usr/include/c++/11/bits/unique_ptr.h \
  /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/chrono \
- /usr/include/c++/11/ratio /usr/include/c++/11/limits \
- /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
- /usr/include/c++/11/regex /usr/include/c++/11/algorithm \
- /usr/include/c++/11/bits/stl_algo.h \
+ /usr/include/c++/11/ratio /usr/include/c++/11/ctime \
+ /usr/include/c++/11/bits/parse_numbers.h /usr/include/c++/11/regex \
+ /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
@@ -214,9 +219,4 @@ src/CMakeFiles/register.x.dir/main.o: \
  /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
  /usr/include/c++/11/bits/regex_executor.h \
  /usr/include/c++/11/bits/regex_executor.tcc \
- /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/Address.h \
- /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/Menu.h \
- /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/Person.h \
- /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/Phone.h \
- /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/PhoneBook.h \
- /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/handler.h
+ /mnt/c/Users/rares/GitHub/PhoneBook/src/../include/linkedList.h
