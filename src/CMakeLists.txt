@@ -4,6 +4,10 @@ set (SRC
     Person.cpp   
     PhoneBook.cpp
     Phone.cpp
+    Menu.cpp
+    utils.cpp
+    handler.cpp
+    linkedList.cpp   
 )
 
 add_executable(register.x ${SRC})
