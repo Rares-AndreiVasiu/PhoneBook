@@ -68,8 +68,6 @@ void SearchContactMenu()
     std::cout << "Search by mobile phone number: press 3" << '\n';
 
     std::cout << "Search by landline number: press 4" << '\n';
-
-    std::cout << "Search by address: press 5" << '\n';
 }
 
 void exitProgram()
