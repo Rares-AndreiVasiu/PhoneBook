@@ -47,4 +47,12 @@ public:
 
     // Function to print the list
     void printList();
+
+    bool searchContactByLastName(std::string lastName);
+
+    bool searchContactByFirstName(std::string firstName);
+
+    bool searchContactByMobilePhoneNumber(std::string mobilePhoneNumber);
+
+    bool searchContactByLandlineNumber(std::string landlineNumber);
 };
