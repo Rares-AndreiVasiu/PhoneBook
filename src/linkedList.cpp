@@ -96,3 +96,198 @@ void linkedList::printList()
         std::cout << std::endl;
     }
 }
+
+bool linkedList::searchContactByLastName(std::string lastName)
+{
+    if (head == nullptr)
+    {
+        return false;
+    }
+    else
+    {
+        node *current = head;
+
+        int index = 0;
+
+        // std::cout << "List: ";
+
+        while (current != nullptr)
+        {
+            index ++;
+
+            if(current->phoneBookObj->getPerson()->getLastName() == lastName)
+            {
+                std::cout << "User found!" << '\n';
+
+                std::cout << "Person: " << current->phoneBookObj->getPerson()->getFirstName() << " " << current->phoneBookObj->getPerson()->getLastName() << std::endl;
+
+                std::cout << "Age: " << current->phoneBookObj->getPerson()->getAge() << std::endl;
+
+                std::cout << "Mobile Phone: " << current->phoneBookObj->getPerson()->getPhone()->getMobileNumber() << std::endl;
+
+                std::cout << "Landline Phone: " << current->phoneBookObj->getPerson()->getPhone()->getLandlineNumber() << std::endl;
+
+                std::cout << "Address: " << std::endl;
+
+                std::cout << "Street: " << current->phoneBookObj->getPerson()->getAddress()->getStreet() << std::endl;
+
+                std::cout << "City: " << current->phoneBookObj->getPerson()->getAddress()->getCity() << std::endl;
+
+                std::cout << "Country: " << current->phoneBookObj->getPerson()->getAddress()->getCountry() << std::endl;
+
+                std::cout << "House Number: " << current->phoneBookObj->getPerson()->getAddress()->getHouseNumber() << std::endl;
+
+                return true;
+            }
+            current = current->next;
+        }
+    }
+    return false;
+}
+
+bool linkedList::searchContactByFirstName(std::string firstName)
+{
+    if (head == nullptr)
+    {
+        return false;
+    }
+    else
+    {
+        node *current = head;
+
+        int index = 0;
+
+        // std::cout << "List: ";
+
+        while (current != nullptr)
+        {
+            index ++;
+
+            if(current->phoneBookObj->getPerson()->getFirstName() == firstName)
+            {
+                std::cout << "User found!" << '\n';
+
+                std::cout << "Person: " << current->phoneBookObj->getPerson()->getFirstName() << " " << current->phoneBookObj->getPerson()->getLastName() << std::endl;
+
+                std::cout << "Age: " << current->phoneBookObj->getPerson()->getAge() << std::endl;
+
+                std::cout << "Mobile Phone: " << current->phoneBookObj->getPerson()->getPhone()->getMobileNumber() << std::endl;
+
+                std::cout << "Landline Phone: " << current->phoneBookObj->getPerson()->getPhone()->getLandlineNumber() << std::endl;
+
+                std::cout << "Address: " << std::endl;
+
+                std::cout << "Street: " << current->phoneBookObj->getPerson()->getAddress()->getStreet() << std::endl;
+
+                std::cout << "City: " << current->phoneBookObj->getPerson()->getAddress()->getCity() << std::endl;
+
+                std::cout << "Country: " << current->phoneBookObj->getPerson()->getAddress()->getCountry() << std::endl;
+
+                std::cout << "House Number: " << current->phoneBookObj->getPerson()->getAddress()->getHouseNumber() << std::endl;
+
+                return true;
+            }
+
+            current = current->next;
+        }
+    }
+    return false;
+}
+
+bool linkedList::searchContactByMobilePhoneNumber(std::string mobilePhoneNumber)
+{
+    if (head == nullptr)
+    {
+        return false;
+    }
+    else
+    {
+        node *current = head;
+
+        int index = 0;
+
+        // std::cout << "List: ";
+
+        while (current != nullptr)
+        {
+            index ++;
+
+            if(current->phoneBookObj->getPerson()->getPhone()->getMobileNumber() == mobilePhoneNumber)
+            {
+                std::cout << "User found!" << '\n';
+
+                std::cout << "Person: " << current->phoneBookObj->getPerson()->getFirstName() << " " << current->phoneBookObj->getPerson()->getLastName() << std::endl;
+
+                std::cout << "Age: " << current->phoneBookObj->getPerson()->getAge() << std::endl;
+
+                std::cout << "Mobile Phone: " << current->phoneBookObj->getPerson()->getPhone()->getMobileNumber() << std::endl;
+
+                std::cout << "Landline Phone: " << current->phoneBookObj->getPerson()->getPhone()->getLandlineNumber() << std::endl;
+
+                std::cout << "Address: " << std::endl;
+
+                std::cout << "Street: " << current->phoneBookObj->getPerson()->getAddress()->getStreet() << std::endl;
+
+                std::cout << "City: " << current->phoneBookObj->getPerson()->getAddress()->getCity() << std::endl;
+
+                std::cout << "Country: " << current->phoneBookObj->getPerson()->getAddress()->getCountry() << std::endl;
+
+                std::cout << "House Number: " << current->phoneBookObj->getPerson()->getAddress()->getHouseNumber() << std::endl;
+
+                return true;
+            }
+
+            current = current->next;
+        }
+    }
+    return false;
+}
+
+bool linkedList::searchContactByLandlineNumber(std::string landlineNumber)
+{
+    if (head == nullptr)
+    {
+        return false;
+    }
+    else
+    {
+        node *current = head;
+
+        int index = 0;
+
+        // std::cout << "List: ";
+
+        while (current != nullptr)
+        {
+            index ++;
+
+            if(current->phoneBookObj->getPerson()->getPhone()->getLandlineNumber() == landlineNumber)
+            {
+                std::cout << "User found!" << '\n';
+
+                std::cout << "Person: " << current->phoneBookObj->getPerson()->getFirstName() << " " << current->phoneBookObj->getPerson()->getLastName() << std::endl;
+
+                std::cout << "Age: " << current->phoneBookObj->getPerson()->getAge() << std::endl;
+
+                std::cout << "Mobile Phone: " << current->phoneBookObj->getPerson()->getPhone()->getMobileNumber() << std::endl;
+
+                std::cout << "Landline Phone: " << current->phoneBookObj->getPerson()->getPhone()->getLandlineNumber() << std::endl;
+
+                std::cout << "Address: " << std::endl;
+
+                std::cout << "Street: " << current->phoneBookObj->getPerson()->getAddress()->getStreet() << std::endl;
+
+                std::cout << "City: " << current->phoneBookObj->getPerson()->getAddress()->getCity() << std::endl;
+
+                std::cout << "Country: " << current->phoneBookObj->getPerson()->getAddress()->getCountry() << std::endl;
+
+                std::cout << "House Number: " << current->phoneBookObj->getPerson()->getAddress()->getHouseNumber() << std::endl;
+
+                return true;
+            }
+
+            current = current->next;
+        }
+    }
+    return false;
+}
