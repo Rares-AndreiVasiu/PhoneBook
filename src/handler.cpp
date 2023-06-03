@@ -199,8 +199,149 @@ void handle(int opt)
         // we search for a contact
         case 4:
         {
-            SearchContactMenu();
+            bool flagMenuOption = false;
 
+            int opt;
+
+            while (!flagMenuOption)
+            {
+                clearConsole();
+
+                SearchContactMenu();
+
+                std::cout << "Enter your choice: ";
+
+                std::cin >> opt;
+
+                if(checkMenuOption(opt, 1, 4))
+                {
+                    flagMenuOption = true;
+                }
+            }
+
+            clearConsole();
+
+            switch (opt)
+            {
+                case 1:
+                {
+                    //search by last name
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+                    bool flagCorrectLastName = false;
+
+                    std::string lastName;
+
+                    while(!flagCorrectLastName)
+                    {
+                        std::cout << "Introduce the last name of the contact: ";
+
+                        std::cin >> lastName;
+
+                        if(checkName(lastName))
+                        {
+                            flagCorrectLastName = true;
+                        }
+                    }
+
+                    if(!phoneBook.searchContactByLastName(lastName))
+                    {
+                        std::cout << "User not found!" << '\n';
+                    }
+
+                    break;
+                }
+
+                case 2:
+                {
+                    //search by first name
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+                    bool flagCorrectFirstName = false;
+
+                    std::string firstName;
+
+                    while(!flagCorrectFirstName)
+                    {
+                        std::cout << "Introduce the first name of the contact: ";
+
+                        std::cin >> firstName;
+
+                        if(checkName(firstName))
+                        {
+                            flagCorrectFirstName = true;
+                        }
+                    }
+
+                    if(!phoneBook.searchContactByFirstName(firstName))
+                    {
+                        std::cout << "User not found!" << '\n';
+                    }
+
+                    break;
+                }
+
+                case 3:
+                {
+                    // search by mobile phone number
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+                    bool flagCorrectMobilePhoneNumber = false;
+
+                    std::string mobilePhoneNumber;
+
+                    while(!flagCorrectMobilePhoneNumber)
+                    {
+                        std::cout << "Introduce the mobile phone number of the contact: ";
+
+                        std::cin >> mobilePhoneNumber;
+
+                        if(checkMobilePhone(mobilePhoneNumber))
+                        {
+                            flagCorrectMobilePhoneNumber = true;
+                        }
+                    }
+
+                    if(!phoneBook.searchContactByMobilePhoneNumber(mobilePhoneNumber))
+                    {
+                        std::cout << "User not found!" << '\n';
+                    }
+                    break;
+                }
+
+                case 4:
+                {
+                    // search by landline phone number
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+                    bool flagCorrectLandlineNumber = false;
+
+                    std::string landlineNumber;
+
+                    while(!flagCorrectLandlineNumber)
+                    {
+                        std::cout << "Introduce the landline number of the contact: ";
+
+                        std::cin >> landlineNumber;
+
+                        if(checkLandlineNumber(landlineNumber))
+                        {
+                            flagCorrectLandlineNumber = true;
+                        }
+                    }
+
+                    if(!phoneBook.searchContactByLandlineNumber(landlineNumber))
+                    {
+                        std::cout << "User not found!" << '\n';
+                    }
+                    break;
+                }
+
+                default:
+                {
+                    break;
+                }
+            }
             break;
         }
 
