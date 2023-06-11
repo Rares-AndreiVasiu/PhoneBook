@@ -1,4 +1,6 @@
 #include <string>
+#include <iostream>
+
 #include "Phone.h"
 
 std::string Phone::getMobileNumber() const
@@ -19,5 +21,12 @@ void Phone::setMobileNumber(std::string mobile)
 void Phone::setLandLineNumber(std::string landline)
 {
     this ->landlineNumber = landline;
+}
+
+void Phone::printPhone()
+{
+    std::cout << "Mobile phone number: " <<  this->mobileNumber << '\n';
+
+    std::cout << "Landline number: " << this->landlineNumber << '\n';
 }
 

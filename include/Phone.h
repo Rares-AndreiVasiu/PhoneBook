@@ -20,4 +20,6 @@ public:
     std::string getMobileNumber() const;
 
     std::string getLandlineNumber() const;
+
+    void printPhone();
 };

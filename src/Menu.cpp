@@ -40,8 +40,6 @@ void UpdateContactMenu()
     std::cout << "Update mobile phone number: press 3" << '\n';
 
     std::cout << "Update landline number: press 4" << '\n';
-
-    std::cout << "Update address: press 5" << '\n';
 }
 
 void DeleteContactMenu()
@@ -77,4 +75,15 @@ void exitProgram()
     std::this_thread::sleep_for(std::chrono::seconds(2));
     
     std::exit(0);
+}
+
+void AddressUpdateMenu()
+{
+    std::cout << "Update the street: press 1" << '\n';
+
+    std::cout << "Update the city: press 2" << '\n';
+
+    std::cout << "Update the country: press 3" << '\n';
+
+    std::cout << "Update the house number: press 4" << '\n';
 }

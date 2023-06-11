@@ -27,4 +27,6 @@ public:
     }
 
     static int getTotalContacts();
+
+    void printContactWithFilters(int option);
 };

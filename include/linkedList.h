@@ -30,21 +30,6 @@ public:
     // Function to delete the entire list
     void deleteList();
 
-    // // Function to search for a given value in the list
-    // bool search(int value)
-    // {
-    //     node *current = head;
-    //     while (current != nullptr)
-    //     {
-    //         if (current->data == value)
-    //         {
-    //             return true;
-    //         }
-    //         current = current->next;
-    //     }
-    //     return false;
-    // }
-
     // Function to print the list
     void printList();
 
@@ -55,4 +40,24 @@ public:
     bool searchContactByMobilePhoneNumber(std::string mobilePhoneNumber);
 
     bool searchContactByLandlineNumber(std::string landlineNumber);
+
+    void updateFirstName(std::string mobilePhoneNumber, std::string firstName);
+
+    void updateLastName(std::string mobilePhoneNumber, std::string lastName);
+
+    void updateMobileNumber(std::string mobilePhoneNumber, std::string newMobileNumber);
+
+    void updateLandlineNumber(std::string mobilePhoneNumber, std::string newLanldineNumber);
+
+    void printSingleContact(std::string mobilePhoneNumber);
+
+    void printGeneralContacts(std::string field, int opt);
+
+    void deleteNode(std::string targetField, int opt);
+
+    void saveData(const std::string& filename);
+
+    friend void loadData(const std::string& filename);
+
+    bool checkUniqueMobilePhoneNumber(const std::string& mobile);
 };

@@ -8,8 +8,12 @@
 
 int main()
 {
+    int flagLoad = 0;
+
     while(true)
     {
+        // clearConsole();
+
         Menu();
 
         int opt;
@@ -24,7 +28,7 @@ int main()
         }
         else
         {
-            handle(opt);
+            handle(opt, &flagLoad);
         }
     }
 

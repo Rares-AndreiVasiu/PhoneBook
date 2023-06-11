@@ -22,6 +22,10 @@ public:
 
     }
 
+    void setFirstName(std::string firstName);
+
+    void setLastName(std::string);
+
     std::string getFirstName() const;
 
     std::string getLastName() const;
@@ -31,5 +35,7 @@ public:
     Phone *getPhone() const;
 
     Address *getAddress() const;
+
+    void printPerson();
 };
 

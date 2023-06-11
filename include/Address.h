@@ -25,4 +25,6 @@ public:
     std::string getCountry() const;
 
     int getHouseNumber() const;
+
+    void printAddress();
 };

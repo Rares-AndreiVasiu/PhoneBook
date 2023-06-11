@@ -11,3 +11,5 @@ void DeleteContactMenu();
 void AddContactMenu();
 
 void exitProgram();
+
+void AddressUpdateMenu();
